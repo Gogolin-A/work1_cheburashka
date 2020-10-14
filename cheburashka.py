@@ -69,8 +69,8 @@ slide2 = """
 """
 for _ in range(4):
     os.system('cls')
-    print(slide1, end="\r")
+    print(slide1, end='\r')
     time.sleep(1)
     os.system('cls')
-    print(slide2)
+    print(slide2, end='\r')
     time.sleep(1)
